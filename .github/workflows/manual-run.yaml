@@ -1,0 +1,9 @@
+name: Manual run
+on:
+  workflow_dispatch
+jobs:
+  on-demand-run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Manual Trigger
+      run: echo "This is example for manual trigger" 
