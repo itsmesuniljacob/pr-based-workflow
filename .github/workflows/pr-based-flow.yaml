@@ -1,0 +1,8 @@
+name: Pull request based flow
+on: [pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger on PR event
+      run: echo "This is PR based workflow" 
