@@ -2,7 +2,7 @@ name: Pull request based flow
 on:
   push:
     branches:
-      - 'releases/**'
+      - 'demo/**'
 jobs:
   test:
     runs-on: ubuntu-latest
