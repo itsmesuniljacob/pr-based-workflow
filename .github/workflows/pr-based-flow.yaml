@@ -1,5 +1,8 @@
 name: Pull request based flow
-on: [pull_request]
+on:
+  push:
+    branches:
+      - 'releases/**'
 jobs:
   test:
     runs-on: ubuntu-latest
